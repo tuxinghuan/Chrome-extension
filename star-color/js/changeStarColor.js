@@ -6,7 +6,7 @@ c[2].style.backgroundColor="#E4CCFF"
 c[3].style.backgroundColor="#CA99FF"
 c[4].style.backgroundColor="#9433FF"
 
-for(var i=0;i<=370;i++){
+for(var i=0;i<dayContribution.length;i++){
     oldColor=dayContribution[i].getAttribute('fill');
     switch(oldColor){
         case "#c6e48b":
