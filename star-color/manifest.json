@@ -10,12 +10,12 @@
     },
     "browser_action":{
         "default_icon":"images/icon48.png",
-        "default_title":"change star color" 
+        "default_title":"change contribution color" 
     },
     "content_scripts": [
         {
           "matches": ["*://github.com/*"],
-          "js": ["js/changeStarColor.js"]
+          "js": ["js/changeContributionColor.js"]
         }
     ]
 }
